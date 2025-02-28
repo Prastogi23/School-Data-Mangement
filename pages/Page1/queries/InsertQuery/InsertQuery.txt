@@ -1,0 +1,12 @@
+INSERT INTO public."SchoolDatabase" (
+	"roll_number",
+	"student_name",
+	"class",
+	"section",
+	"school_name")
+VALUES (
+	'{{insert_form.formData.roll_number}}',
+	'{{insert_form.formData.student_name}}',
+	'{{insert_form.formData.class}}',
+	'{{insert_form.formData.section}}',
+	'{{insert_form.formData.school_name}}');

@@ -1,0 +1,2 @@
+DELETE FROM public."SchoolDatabase"
+  WHERE "roll_number" = {{data_table.triggeredRow.roll_number}};
